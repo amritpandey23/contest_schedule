@@ -109,7 +109,7 @@ function App() {
             {contests.map(contest => {
               return <tr>
                 <td>{contest.name}</td>
-                <td><a target="_blank" href={contest.link}>{contest.link}</a></td>
+                <td><a target="_blank" href={contest.link}>Contest Page</a></td>
                 <td>{contest.date}</td>
                 <td>{contest.time}</td>
                 <td><Button className="btn-sm btn-danger" onClick={() => deleteContest(contest.id)}>Delete</Button></td>
